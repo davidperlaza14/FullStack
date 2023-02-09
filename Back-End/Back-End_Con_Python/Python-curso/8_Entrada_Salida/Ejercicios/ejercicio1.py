@@ -14,7 +14,4 @@ f.close()
 f = open('mi_primer_archivo.txt', 'r+')
 f.readline()
 f.write('Esta es la segunda vez que escribo.\n')
-
-f.seek(0)
-print(f.read())
 f.close()
